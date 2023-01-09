@@ -23,7 +23,7 @@ select * from blog202112004 ORDER BY create_date ASC;
 select * from blog202112004 ORDER BY create_date DESC;
 select * from blog202112004;
 
- update blog202112004 set title='인덕대', author='sw202112004', email='sw202112004@example.com',
+ update blog202112004 set title='test', author='sw202112004', email='sw202112004@example.com',
                            content='ㅇㅇ' where id=1;
 
 
